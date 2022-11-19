@@ -1,0 +1,6 @@
+/* Add a function node and insert following code and wire the nodes */
+var data = {};
+data.user = msg.payload;
+msg.payload = data;
+return msg;
+/* NOTE: The code ensures that the data will be save in the right JSON format we need. */
